@@ -1,12 +1,13 @@
-import 'dart:html';
-import 'package:flutter/material.dart';
-import 'package:animations/animations.dart';
-import 'package:manajemen_keuangan_psgede/mulai.dart';
-import 'package:manajemen_keuangan_psgede/main.dart';
-import 'package:manajemen_keuangan_psgede/menu.dart';
-import 'package:manajemen_keuangan_psgede/pin.dart';
 
-void main() {
+import 'package:flutter/material.dart';
+import 'package:manajemen_keuangan_psgede/pin.dart';
+import 'package:firebase_core/firebase_core.dart';
+
+//void main() {
+Future main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  //await Firebase.initializeApp();
+  Firebase.initializeApp();
   runApp(const MyApp());
 }
 
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: PinMasuk(),
+      home: const PinMasuk(),
     );
   }
 }

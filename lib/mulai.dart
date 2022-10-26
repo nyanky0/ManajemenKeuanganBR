@@ -4,6 +4,7 @@ import 'package:animations/animations.dart';
 import 'package:manajemen_keuangan_psgede/mulai.dart';
 import 'package:manajemen_keuangan_psgede/main.dart';
 import 'package:manajemen_keuangan_psgede/menu.dart';
+import 'package:firebase_core/firebase_core.dart';
 
 class MulaiHari1 extends StatefulWidget {
   const MulaiHari1({Key? key}) : super(key: key);

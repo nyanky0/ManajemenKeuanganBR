@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:animations/animations.dart';
 import 'package:flutter/services.dart';
 import 'package:manajemen_keuangan_psgede/menu.dart';
+import 'package:firebase_core/firebase_core.dart';
 
 class PinMasuk extends StatefulWidget {
   const PinMasuk({Key? key}) : super(key: key);

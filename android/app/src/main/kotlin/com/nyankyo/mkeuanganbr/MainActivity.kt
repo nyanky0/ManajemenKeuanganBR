@@ -1,4 +1,4 @@
-package com.example.manajemen_keuangan_psgede
+package com.nyankyo.mkeuanganbr
 
 import io.flutter.embedding.android.FlutterActivity
 

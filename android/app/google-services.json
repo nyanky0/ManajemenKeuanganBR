@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "297924103941",
+    "project_id": "manajemen-keuangan-br",
+    "storage_bucket": "manajemen-keuangan-br.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:297924103941:android:2760192a7fd7590790316c",
+        "android_client_info": {
+          "package_name": "com.nyankyo.mkeuanganbr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "297924103941-njoinp6ub1l0n7l565heg3m8f932a86j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQ68z9hYM-ExQolKJSFuuH3K6lOUlzpKc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "297924103941-njoinp6ub1l0n7l565heg3m8f932a86j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

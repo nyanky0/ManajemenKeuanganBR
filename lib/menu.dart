@@ -1,10 +1,9 @@
-import 'dart:html';
+
 import 'package:flutter/material.dart';
 import 'package:animations/animations.dart';
 import 'package:manajemen_keuangan_psgede/mulai.dart';
-import 'package:manajemen_keuangan_psgede/main.dart';
-import 'package:manajemen_keuangan_psgede/menu.dart';
 
+import 'package:firebase_core/firebase_core.dart';
 class daftarproduk extends StatelessWidget {
   const daftarproduk({Key? key}) : super(key: key);
 
